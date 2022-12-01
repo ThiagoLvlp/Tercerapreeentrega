@@ -1,0 +1,68 @@
+.logo {
+    display: flex;
+    float: left;
+    max-width: 350px;
+    padding-left: 100px;
+}
+.fcarrusel {
+    background-color: rgba(8, 8, 8, 0.527);
+    color: white;
+}
+.fotocarrusel {
+    width: 100%;
+    height: 660px;
+}
+.main {
+    background-color: black !important;
+}
+.bg-gris {
+    background-image: url(../assets/img/galeria3.jpg);
+    opacity: 0.8;
+    margin-top: 1rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-tras {
+    background-color:rgba(0, 0, 0, 0.63);
+}
+.bg-galeria {
+    background-image: url(../assets/img/tomates.jpg);
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.dne {
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: center;
+    font-style: italic;
+}
+.uf {
+    background-image: url(../assets/img/lechuga.jpg);
+    background-size: cover;
+}
+
+.bg-contacto {
+    background-image: url(../assets/img/galeria9.jpg);
+    background-size: cover;
+    background-position: 50%;
+    margin-top: 0%;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.562) !important;
+}
+@media (min-width: 576px) {
+    .fotocarrusel {
+        width: 50rem;
+        height: auto;
+    }
+    }
+@media (min-width: 992px) { 
+    .fotocarrusel {
+        width: 100%;
+    }
+ }
+ 
