@@ -1,0 +1,14 @@
+main {
+    .bg-tras {
+        background-color: rgba(0, 0, 0, 0.63) ;
+    }
+         .bg-gris{
+             background-image: url(../assets/img/galeria3.jpg);
+             opacity: 0.8;
+             margin-top: 1rem;
+            background-attachment: fixed;
+             background-position: $centro;
+             background-repeat: $norep;
+             background-size: $cubrir;
+        }
+    }

@@ -1,0 +1,11 @@
+main{
+    .bg-contacto {
+    background-image: url(../assets/img/galeria9.jpg);
+    background-size: $cubrir;
+    background-position: map-get($sizes,50);
+    margin-top: 0%;
+     .card {
+            background-color: $fondogristransparente !important;
+         }
+     }
+ }
